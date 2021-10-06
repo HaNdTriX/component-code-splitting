@@ -1,0 +1,22 @@
+{
+  "name": "component-code-splitting",
+  "version": "0.0.1",
+  "description": "POC that shows how to implement component code splitting",
+  "main": "src/index.js",
+  "author": "Henrik Wenz <henrik.wenz@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack serve --mode=development --open",
+    "build": "webpack --mode=production",
+    "start": "serve dist"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.2",
+    "serve": "^12.0.1",
+    "webpack": "^5.57.1",
+    "webpack-assets-manifest": "^5.0.6",
+    "webpack-bundle-analyzer": "^4.4.2",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.3.1"
+  }
+}
