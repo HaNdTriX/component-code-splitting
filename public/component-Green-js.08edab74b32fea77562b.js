@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcomponent_code_splitting=self.webpackChunkcomponent_code_splitting||[]).push([[671],{71132:(e,n,t)=>{function c(e){e.style.background="green"}t.r(n),t.d(n,{default:()=>c})}}]);
